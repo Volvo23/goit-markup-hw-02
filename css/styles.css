@@ -1,4 +1,9 @@
 /* шапка */
+
+.header {
+  background: #ffffff;
+  list-style: none;
+}
 .Webstudio {
   text-decoration: none;
   font-family: Raleway;
@@ -7,8 +12,14 @@
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
+  list-style-type: none;
 
   letter-spacing: 0.03em;
+
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 
   color: #2196f3;
 }
@@ -24,63 +35,81 @@
   letter-spacing: 0.03em;
 
   color: #000000;
+  list-style-type: none;
 }
 .Студия {
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
+  font-family: "Roboto";
+  font-weight: 500px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #212121;
+  padding-left: 93px;
+  padding-top: 32px;
+  text-decoration: none;
 }
 .Портфолио {
-  text-decoration: none;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
+  padding-left: 53px;
+  padding-top: 32px;
   color: #2196f3;
+  text-decoration: none;
 }
 .Контакты {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
-
+  padding-left: 53px;
+  padding-top: 32px;
   color: #212121;
+  text-decoration: none;
 }
 .mail {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 550;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
-
   color: #757575;
+  padding-left: 331px;
+  padding-top: 32px;
+  width: 135px;
+  height: 16px;
+  text-decoration: none;
 }
 .phone {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 550;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
-
   color: #757575;
+  padding-left: 50px;
+  padding-top: 32px;
+  width: 135px;
+  height: 16px;
+  text-decoration: none;
 }
 /* main */
+.midcont {
+  background: #f5f4fa;
+}
+.midcont2 {
+  background: #f5f4fa;
+}
+.midcont3 {
+  background: #f5f4fa;
+}
 
 .effect {
   font-family: Roboto;
@@ -95,9 +124,11 @@
   text-transform: uppercase;
 
   color: #ffffff;
-  background: #2f303a;
 }
 .zakaz {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -105,18 +136,16 @@
   line-height: 30px;
   /* identical to box height, or 187% */
 
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 
   color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border-color: none;
-  box-shadow: none;
 }
+.main {
+  background: #2f303a;
+}
+
 .Пунктуальность {
   font-family: Roboto;
   font-style: normal;
@@ -231,7 +260,7 @@
 
   color: #212121;
 }
-.Igor {
+.name {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -244,85 +273,7 @@
 
   color: #212121;
 }
-.pdr {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Olga {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.fdr {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Nikolai {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.Market {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Mihail {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
-.uid {
+.position {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -362,15 +313,34 @@
   color: #ffffff;
 }
 .footer {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-
   background: #2f303a;
 }
+.Studio2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: white;
+}
 .mulo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.mulo2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -396,6 +366,19 @@
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.tele2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
 .ConsultConsult {
   font-family: Roboto;
   font-style: normal;
@@ -406,4 +389,23 @@
 
   letter-spacing: 0.03em;
   color: #757575;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+}
+ul {
+  list-style: none;
+}
+* {
+  magrin: 0;
+  padding: 0;
+}
+.wrapper {
+  position: relative;
+  max-width: 1600px;
+  height: 1880px;
+  background: #ffffff;
 }

@@ -4,21 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="wrapper">
     <div>
       <!--Шапка сафта-->
-      <header>
+      <header class="header">
         <nav>
           <ul>
             <li>
-              <a class="Webstudio" href="WebStudio"
+              <a class="Webstudio" href="index.html"
                 ><span class="Web">Web</span><span class="Studio">Studio</span>
               </a>
             </li>
-            <li><a class="Студия" href="Студия">Студия</a></li>
-            <li><a class="Портфолио" href="Портфолио">Портфолио</a></li>
+            <li><a class="Студия" href="index.html">Студия</a></li>
+            <li><a class="Портфолио" href="portfolio.html">Портфолио</a></li>
             <li><a class="Контакты" href="Контакты">Контакты</a></li>
             <li>
               <a class="mail" href="mailto:info@devstudio.com"
@@ -31,10 +44,11 @@
           </ul>
         </nav>
       </header>
-      <main>
+      <main class="main">
         <h1 class="effect">Эффективные решения для вашего бизнеса</h1>
-        <button class="zakaz">Заказать услугу</button>
-
+        <button class="zakaz"><span>Заказать услугу</span></button>
+      </main>
+      <div class="midcont">
         <ul>
           <li class="Details">Внимание к деталям</li>
           <li class="Ideas">
@@ -60,36 +74,37 @@
             заданий.
           </li>
         </ul>
+      </div>
+      <div class="midcont2">
+        <h2 class="Chem">Чем мы занимаемся</h2>
+        <img src="./img/img1.png" alt="Photo" />
+        <img src="./img/img2.png" alt="Phone" />
+        <img src="./img/img3.png" alt="Ipad" />
+      </div>
 
-        <div>
-          <h2 class="Chem">Чем мы занимаемся</h2>
-          <img src="./img/img1.png" alt="Photo" />
-          <img src="./img/img2.png" alt="Phone" />
-          <img src="./img/img3.png" alt="Ipad" />
-        </div>
-        <div>
-          <h3 class="ourteam">Наша команда</h3>
-          <img src="./img/img4.jpg" alt="Игорь Демьяненко" />
-          <p class="Igor">Игорь Демьяненко</p>
-          <p class="pdr">Product Designer</p>
+      <div class="midcont3">
+        <h3 class="ourteam">Наша команда</h3>
+        <img src="./img/img4.jpg" alt="Игорь Демьяненко" />
+        <p class="name">Игорь Демьяненко</p>
+        <p class="position">Product Designer</p>
 
-          <img src="./img/img5.jpg" alt="Ольга Репина" />
-          <p class="Olga">Ольга Репина</p>
-          <p class="fdr">Frontend Developer</p>
+        <img src="./img/img5.jpg" alt="Ольга Репина" />
+        <p class="name">Ольга Репина</p>
+        <p class="position">Frontend Developer</p>
 
-          <img src="./img/img6.jpg" alt="Николай Тарасов" />
+        <img src="./img/img6.jpg" alt="Николай Тарасов" />
 
-          <p class="Nikolai">Николай Тарасов</p>
-          <p class="Market">Marketing</p>
-          <img src="/img/img7.jpg" alt="Михаил Ермаков" />
-          <p class="Mihail">Михаил Ермаков</p>
-          <p class="uid">UI Designer</p>
-        </div>
-      </main>
+        <p class="name">Николай Тарасов</p>
+        <p class="position">Marketing</p>
+        <img src="/img/img7.jpg" alt="Михаил Ермаков" />
+        <p class="name">Михаил Ермаков</p>
+        <p class="position">UI Designer</p>
+      </div>
+
       <footer class="footer">
         <p>
-          <a class="Webstudio2" href="WebStudio"
-            ><span class="Web">Web</span><span class="Studio">Studio</span>
+          <a class="Webstudio2" href="index.html"
+            ><span class="Web">Web</span><span class="Studio2">Studio</span>
           </a>
         </p>
 
@@ -99,9 +114,9 @@
           >
         </p>
         <p>
-          <a class="mulo" href="mailto:info@example.com">info@example.com</a>
+          <a class="mulo2" href="mailto:info@example.com">info@example.com</a>
         </p>
-        <p><a class="tele" href="tel:+380991111111">+38 099 11 11 111</a></p>
+        <p><a class="tele2" href="tel:+380991111111">+38 099 11 11 111</a></p>
       </footer>
     </div>
   </body>
