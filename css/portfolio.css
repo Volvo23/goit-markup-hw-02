@@ -1,479 +1,131 @@
-/* шапка */
+/* SETTINGS */
+:root {
+  --main-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --text-hover-focus: rgba(33, 150, 243, 1);
+  --white-text-background: rgba(255, 255, 255, 1);
+}
 
-.Webstudio {
-  text-decoration: none;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  list-style-type: none;
-
+body {
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  background-color: var(--white-text-background);
+  color: var(--main-text-color);
+}
 
+.list {
+  list-style: none;
+}
+
+/* ЛОГО */
+.webstudio {
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
-
-  color: #2196f3;
-}
-.Studio {
-  font-family: Raleway;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  text-decoration: none;
   /* identical to box height */
 
   letter-spacing: 0.03em;
+}
 
-  color: #000000;
-  list-style-type: none;
-}
-.Студия {
-  font-family: "Roboto";
-  font-weight: 500px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-  padding-left: 93px;
-  padding-top: 32px;
-  text-decoration: none;
-}
-.Портфолио {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  padding-left: 53px;
-  padding-top: 32px;
+.studio {
   color: #2196f3;
-  text-decoration: none;
 }
-.Контакты {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  padding-left: 53px;
-  padding-top: 32px;
-  color: #212121;
+
+/* НАВІГАЦІЯ */
+
+.link {
+  color: var(--title-text-color);
   text-decoration: none;
-}
-.mail {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 550;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  padding-left: 331px;
-  padding-top: 32px;
-  width: 135px;
-  height: 16px;
-  text-decoration: none;
-}
-.phone {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 550;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  padding-left: 50px;
-  padding-top: 32px;
-  width: 135px;
-  height: 16px;
-  text-decoration: none;
-}
-.phone {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
-
-  color: #757575;
 }
-/* мейн */
-.все {
+
+.link:hover,
+.link:focus {
+  color: var(--text-hover-focus);
+}
+
+.auth-item {
+  color: var(--main-text-color);
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
-.Веб-сайты {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-  text-decoration: none;
-}
-.Приложения {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-  text-decoration: none;
-}
-.Дизайн {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-  text-decoration: none;
-}
-.Маркетинг {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-  text-decoration: none;
-}
-.position1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.position2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Постер {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Дизайн1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Seafood {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Приложение1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Prime {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Boxes {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Маркетинг1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Приложение2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Inspiration {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Веб-сайт2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Издание {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Дизайн2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Proectlab {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Маркетинг2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.Growing {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.Приложение3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.adresa {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-  text-decoration: none;
-
-  color: #ffffff;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.footer {
-  background: #2f303a;
+
+.auth-item:hover,
+.auth-item:focus {
+  color: var(--text-hover-focus);
 }
-.mulo {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
 
-  letter-spacing: 0.03em;
+/* Кнопки */
 
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-.tele {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
 .button {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
   width: 145px;
   height: 38px;
   left: 712px;
   top: 174px;
-  background: #f5f4fa;
+  background: rgba(245, 244, 250, 1);
   border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  color: var(--title-text-color);
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-* {
-  magrin: 0;
-  padding: 0;
+
+.button:hover,
+.button:focus {
+  background: var(--text-hover-focus);
 }
-.wrapper {
-  position: relative;
-  max-width: 1600px;
-  height: 1880px;
-  background: #ffffff;
+
+.button:hover,
+.button:focus {
+  color: var(--white-text-background);
 }
-nav ul li {
-  list-style-type: none;
+
+/* Main */
+.section-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  color: var(--title-text-color);
+  letter-spacing: 0.06em;
 }
-nav ul li {
-  display: inline;
+
+.section-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
-ul {
-  list-style: none;
+
+/* Підвал */
+
+.footer {
+  background: rgba(47, 48, 58, 1);
 }
-.Studio2 {
-  font-family: Raleway;
+
+.webstudio-footer {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -482,5 +134,33 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: white;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.street {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--white-text-background);
+}
+
+.foooter-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
